@@ -105,7 +105,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3vw;
+    margin-top: 8vw;
 }
 .selfie {
     width:37vw;
@@ -126,12 +126,33 @@ a:hover {
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
+.yhwh-container {
+    padding-top: 4vw;
+}
 .yhwh {
-    width: 31vw;
+    width: 20vw;
     opacity: 0.4;
     transition-duration: 1s;
 }
 .yhwh:hover {
+    cursor: pointer;
+    animation: fade1 0.5s ease-in forwards;
+}
+.lilypx {
+    width: 20vw;
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+.lilypx:hover {
+    cursor: pointer;
+    animation: fade1 0.5s ease-in forwards;
+}
+.homegroup {
+    width: 20vw;
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+.homegroup:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
@@ -144,15 +165,7 @@ a:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
-.ds {
-    width: 32vw;
-    opacity: 0.4;
-    transition-duration: 1s;
-}
-.ds:hover {
-    cursor: pointer;
-    animation: fade1 0.5s ease-in forwards;
-}
+
 @keyframes fade1 {
     from {opacity:0.4}
     to {opacity:1}
@@ -174,6 +187,17 @@ a:hover {
     font-size: 1vw;
     text-align: center;
     font-weight:600;
+    color: black;
+}
+.button-text:visited {
+    font-size: 1vw;
+    text-align: center;
+    font-weight:600;
+    color: black;
+    color: black;
+}
+.button-text:hover {
+    text-decoration: underline;
 }
 .caption {
     text-align: justify;
@@ -191,7 +215,7 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50vw;
+    width: 500px;
 }
 .lightbox .caption {
     box-sizing: border-box;
@@ -355,4 +379,224 @@ iframe {
 }
 .bye {
     text-align: center;
+}
+/* YHWH Portfolio Page */
+.yp-link {
+    color: black;
+}
+.yp-link:visited {
+    color: black;
+}
+.yp-link:hover {
+    text-decoration: underline;
+}
+.yp-description {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.yp-main-image {
+    width:37vw;
+    padding-top: 2vw;
+}
+.yp-process {
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.yp-link-1 {
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+.yp-link-1:visited {
+    color: black;
+}
+.yp-link-1:hover {
+    text-decoration: underline;
+}
+/* KingPin Portfolio Page */
+.kp-link {
+    color: black;
+}
+.kp-link:visited {
+    color: black;
+}
+.kp-link:hover {
+    text-decoration: underline;
+}
+.kp-description {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kp-disc {
+    font-size: 1.4vw;
+    font-weight: 200;
+    width: 40vw;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-top: 3vw;
+}
+.kp-main-image {
+    width:30vw;
+    padding-left: 4vw;
+}
+.kp-process {
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.kp-link-1 {
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+.kp-link-1:visited {
+    color: black;
+}
+.kp-link-1:hover {
+    text-decoration: underline;
+}
+.yp-color {
+    width: 60vw;
+    padding-left: 10vw;
+}
+.yp-desktop {
+    width: 75vw;
+    padding-left: 1vw;
+}
+.yp-mobile {
+    width: 75vw;
+    padding-left: 1vw;
+}
+.og-site {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kp-i1 {
+    width: 25vw;
+    padding: 1vw;
+}
+.kp-i2 {
+    width: 25vw;
+    padding: 1vw;
+}
+.kp-i3 {
+    width: 25vw;
+    padding: 1vw;
+}
+.kp-wireframe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kp-wftext {
+    font-size: 1.4vw;
+    font-weight: 200;
+    width: 40vw;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-top: 5vw; 
+}
+.kp-i4 {
+    width: 20vw;
+}
+/* HomeGroup Portfolio Page */
+.hgp-link {
+    color: black;
+}
+.hgp-link:visited {
+    color: black;
+}
+.hgp-link:hover {
+    text-decoration: underline;
+}
+.hgp-description {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hgp-main-image {
+    width:25vw;
+    padding-top: 1vw;
+    padding-left: 5vw;
+}
+.hgp-process {
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.hg-pictures { 
+    padding-left: 5vw;
+}
+.hg-icon {
+    width: 20vw;
+    padding: 1vw;
+}
+
+/* PureUX Portfolio Page */
+.pup-link {
+    color: black;
+}
+.pup-link:visited {
+    color: black;
+}
+.pup-link:hover {
+    text-decoration: underline;
+}
+.pup-description {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pup-main-image {
+    width:20vw;
+    padding-top: 1vw;
+}
+.pup-process {
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.notionimage {
+    width: 70vw;
+    padding-left: 5vw;
+}
+.pu-i1 {
+    width: 20vw;
+    padding: 1vw;
+}
+.pu-i2 {
+    width: 17vw;
+    padding: 1vw;
+}
+.pu-i3 {
+    height: 30vw;
+    padding: 4vw;
+}
+.pu-i4 {
+    height: 20vw;
+    padding: 1vw;
+}
+.obimage {
+    width: 70vw;
+    padding-left: 5vw;
+}
+.bximage {
+    width: 70vw;
+    padding-left: 5vw;
 }
