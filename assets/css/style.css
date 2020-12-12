@@ -127,39 +127,65 @@ a:hover {
     margin-bottom: 5vw;
 }
 .yhwh-container {
-    padding-top: 4vw;
+    padding-top: 4.5vw;
 }
 .yhwh {
-    width: 20vw;
+    width: 15vw;
     opacity: 0.4;
     transition-duration: 1s;
+    border-radius: 20px;
 }
 .yhwh:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
-.lilypx {
-    width: 20vw;
+.zine-container {
+    /* padding-top: 4vw; */
+}
+.zine {
+    width: 15vw;
     opacity: 0.4;
     transition-duration: 1s;
+    border-radius: 20px;
+}
+.zine:hover {
+    cursor: pointer;
+    animation: fade1 0.5s ease-in forwards;
+}
+.lily-container {
+    padding-top: 2vw;
+}
+.lilypx {
+    width: 15vw;
+    opacity: 0.4;
+    transition-duration: 1s;
+    border-radius: 20px;
 }
 .lilypx:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
+.hgp-container {
+    padding-top: 1.5vw;
+}
 .homegroup {
-    width: 20vw;
+    width: 15vw;
     opacity: 0.4;
     transition-duration: 1s;
+    border-radius: 20px;
 }
 .homegroup:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
+.kp-container {
+    padding-top: 2.5vw;
+}
 .kp {
-    width: 20vw;
+    width: 15vw;
     opacity: 0.4;
     transition-duration: 1s;
+    border-radius: 20px;
 }
 .kp:hover {
     cursor: pointer;
@@ -599,4 +625,57 @@ iframe {
 .bximage {
     width: 70vw;
     padding-left: 5vw;
+}
+/* Zine Portfolio Page */
+.zine-description {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.zine-main-image {
+    width:17vw;
+    padding-top: 0.5vw;
+}
+.zine-process {
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.z-i1 {
+    width: 12vw;
+    padding: 1vw;
+}
+.z-i2 {
+    width: 18vw;
+    padding: 1vw;
+}
+/* .notionimage {
+    width: 70vw;
+    padding-left: 5vw;
+}
+
+.pu-i2 {
+    width: 17vw;
+    padding: 1vw;
+}
+.pu-i3 {
+    height: 30vw;
+    padding: 4vw;
+}
+.pu-i4 {
+    height: 20vw;
+    padding: 1vw;
+}
+.obimage {
+    width: 70vw;
+    padding-left: 5vw;
+} */
+.layout-planning {
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
