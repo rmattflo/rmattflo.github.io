@@ -124,6 +124,12 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     margin-top: 5vw;
+    margin-bottom: 1vw;
+}
+.projs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 5vw;
 }
 .yhwh-container {
@@ -188,6 +194,19 @@ a:hover {
     border-radius: 20px;
 }
 .kp:hover {
+    cursor: pointer;
+    animation: fade1 0.5s ease-in forwards;
+}
+.des-container {
+    padding-top: 1.5vw;
+}
+.des {
+    width: 15vw;
+    opacity: 0.4;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+.des:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
@@ -684,4 +703,12 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+/* Design Portfolio Page */
+.design-content {
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
