@@ -126,11 +126,10 @@ a:hover {
     margin-top: 5vw;
     margin-bottom: 1vw;
 }
-.projs {
+.projecters {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1vw;
     margin-bottom: 5vw;
 }
 .yhwh-container {
@@ -198,16 +197,16 @@ a:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
-.des-container {
+.designi-container {
     padding-top: 1.5vw;
 }
-.des {
+.designi {
     width: 15vw;
     opacity: 0.4;
     transition-duration: 1s;
     border-radius: 20px;
 }
-.des:hover {
+.designi:hover {
     cursor: pointer;
     animation: fade1 0.5s ease-in forwards;
 }
