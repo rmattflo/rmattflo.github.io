@@ -130,6 +130,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 1vw;
     margin-bottom: 5vw;
 }
 .yhwh-container {
