@@ -1,4 +1,7 @@
 /* SHARED ELEMENTS CSS */
+.spero-container {
+    padding-left: 2vw;
+}
 html {
     font-family: 'Manrope', sans-serif;
     background-color: #d3cec7;
@@ -51,14 +54,44 @@ html {
     margin-bottom: 2vw;
   }
 a {
-    color: grey;
-    padding-left: 2vw;
+    color: #696969;
+    /* padding-left: 2vw; */
 }
 a:visited {
-    color: grey;
+    color: #696969;
 }
 a:hover {
     text-decoration: underline;
+}
+.navbar-item1 {
+    color: black;
+}
+.navbar-item1:hover {
+    color: black;
+}
+.navbar-item2 {
+    color: black;
+    padding-left: 2vw;
+}
+.navbar-item2:hover {
+    color: black;
+    padding-left: 2vw;
+}
+.navbar-item3 {
+    color: black;
+    padding-left: 2vw;
+}
+.navbar-item3:hover {
+    color: black;
+    padding-left: 2vw;
+}
+.navbar-item4 {
+    color: black;
+    padding-left: 2vw;
+}
+.navbar-item4:hover {
+    color: black;
+    padding-left: 2vw;
 }
 .navbar-item1b {
     color: black;
@@ -68,21 +101,27 @@ a:hover {
 }
 .navbar-item2b {
     color: black;
+    padding-left: 2vw;
 }
 .navbar-item2b:hover {
     color: black;
+    padding-left: 2vw;
 }
 .navbar-item3b {
     color: black;
+    padding-left: 2vw;
 }
 .navbar-item3b:hover {
     color: black;
+    padding-left: 2vw;
 }
 .navbar-item4b {
     color: black;
+    padding-left: 2vw;
 }
 .navbar-item4b:hover {
     color: black;
+    padding-left: 2vw;
 }
 .info1 {
 	color: grey;
@@ -119,11 +158,22 @@ a:hover {
     padding-left: 5vw;
 }
 /*PROJECTS PAGE*/
+.hit {
+    text-align: center;
+    font-size: 1.5vw;
+
+    margin: top 5vw;
+}
+.hits {
+    text-align: center;
+    font-size: 1.5vw;
+
+}
 .proj {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 5vw;
+    /* margin-top: 5vw; */
     margin-bottom: 1vw;
 }
 .projecters {
@@ -412,6 +462,7 @@ iframe {
     width:5vw;
     opacity: 0.65;
     transition-duration: 1s;
+    padding-left: 2vw;
 }
 .logo:hover {
     cursor: pointer;
@@ -446,6 +497,12 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.icon-image {
+    width:23vw;
+    margin-top: 2vw;
+    border-radius: 20px;
+
 }
 .yp-main-image {
     width:37vw;
