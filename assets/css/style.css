@@ -149,6 +149,7 @@ a:hover {
 .selfie {
     width:37vw;
     padding-top: 3vw;
+    border-radius: 20px;
 }
 .disc {
     font-size: 1.4vw;
